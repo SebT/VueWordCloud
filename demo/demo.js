@@ -45,6 +45,10 @@
 	new Vue({
 		el: '#demo',
 
+		components: {
+			'vue-word-cloud': window.vueWordCloud
+		},
+
 		data: {
 			active: true,
 
